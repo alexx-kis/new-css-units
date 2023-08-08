@@ -1,0 +1,254 @@
+@import "reset";
+@import "vars";
+@import "mixins";
+@import "fonts";
+
+html {
+	// scroll-behavior: smooth;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.heading {
+	text-align: center;
+	font-weight: 900;
+}
+
+.subtitle {
+	font-weight: 700;
+	text-align: center;
+}
+
+/*==================================== Section 1 ====================================*/
+
+.section1 {
+	padding-top: clamp(1px, 8vh, 87px);
+	padding-bottom: clamp(1px, 3vh, 33px);
+	height: 100vh;
+	background: radial-gradient(#fff, #a8a8a8);
+
+	&__inner {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	&__heading {
+		font-size: clamp(26px, 3.5vh, 60px);
+		margin-bottom: clamp(1px, 5vh, 50px);
+	}
+
+	&__subtitle {
+		font-size: clamp(20px, 2.4vh, 30px);
+		font-size: 2.4vh;
+		margin-bottom: clamp(1px, 5vh, 50px);
+	}
+
+	&__text {
+		font-size: clamp(10px, 2vh, 22px);
+		text-align: justify;
+		margin-bottom: clamp(1px, 5vh, 50px);
+		line-height: 2.5vh;
+	}
+
+	&__images {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: clamp(1px, 5vh, 50px);
+
+	}
+
+	&__img {
+		width: 30vh;
+
+		&:not(:last-child) {
+			margin-right: 2vh;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+/*==================================== SECTION2 ====================================*/
+
+.section2 {
+	padding-top: clamp(1px, 8lvh, 87px);
+	padding-bottom: clamp(1px, 3lvh, 33px);
+	height: 100lvh;
+	background: radial-gradient(#fff, #a782aa);
+
+	&__inner {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	&__heading {
+		font-size: clamp(26px, 3.5lvh, 60px);
+		margin-bottom: clamp(1px, 5lvh, 50px);
+	}
+
+	&__subtitle {
+		font-size: clamp(20px, 2.4lvh, 30px);
+		font-size: 2.4lvh;
+		margin-bottom: clamp(1px, 5lvh, 50px);
+	}
+
+	&__text {
+		font-size: clamp(10px, 2lvh, 22px);
+		text-align: justify;
+		margin-bottom: clamp(1px, 5lvh, 50px);
+		line-height: 2.5lvh;
+	}
+
+	&__images {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: clamp(1px, 5lvh, 50px);
+
+	}
+
+	&__img {
+		width: 30lvh;
+
+		&:not(:last-child) {
+			margin-right: 2lvh;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+/*==================================== SECTION3 ====================================*/
+
+.section3 {
+	padding-top: clamp(1px, 8dvh, 87px);
+	padding-bottom: clamp(1px, 3dvh, 33px);
+	height: 100dvh;
+	background: radial-gradient(#fff, #d29f69);
+
+	&__inner {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	&__heading {
+		font-size: clamp(26px, 3.5dvh, 60px);
+		margin-bottom: clamp(1px, 5dvh, 50px);
+	}
+
+	&__subtitle {
+		font-size: clamp(20px, 2.4dvh, 30px);
+		font-size: 2.4dvh;
+		margin-bottom: clamp(1px, 5dvh, 50px);
+	}
+
+	&__text {
+		font-size: clamp(10px, 2dvh, 22px);
+		text-align: justify;
+		margin-bottom: clamp(1px, 5dvh, 50px);
+		line-height: 2.5dvh;
+	}
+
+	&__images {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: clamp(1px, 5dvh, 50px);
+
+	}
+
+	&__img {
+		width: 30dvh;
+
+		&:not(:last-child) {
+			margin-right: 2dvh;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+/*==================================== SECTION4 ====================================*/
+
+.section4 {
+	padding-top: clamp(1px, 8svh, 87px);
+	padding-bottom: clamp(1px, 3svh, 33px);
+	height: 100svh;
+	background: radial-gradient(#fff, #97e38d);
+
+	&__inner {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	&__heading {
+		font-size: clamp(26px, 3.5svh, 60px);
+		margin-bottom: clamp(1px, 5svh, 50px);
+	}
+
+	&__subtitle {
+		font-size: clamp(20px, 2.4svh, 30px);
+		font-size: 2.4svh;
+		margin-bottom: clamp(1px, 5svh, 50px);
+	}
+
+	&__text {
+		font-size: clamp(10px, 2svh, 22px);
+		text-align: justify;
+		margin-bottom: clamp(1px, 5svh, 50px);
+		line-height: 2.5svh;
+	}
+
+	&__images {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: clamp(1px, 5svh, 50px);
+
+	}
+
+	&__img {
+		width: 30svh;
+
+		&:not(:last-child) {
+			margin-right: 2svh;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+
+
+/*==================================== MEDIA ====================================*/
+
+@import "media";

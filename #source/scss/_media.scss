@@ -1,0 +1,154 @@
+/*==================================== MEDIA ====================================*/
+/*==================================== MEDIA ====================================*/
+
+/*------------------------------ 1024 ------------------------------*/
+
+@media (max-width: 1024px) {
+	.section1 {
+		&__heading {
+			font-size: 3vh;
+		}
+
+		&__subtitle {
+			font-size: 2vh;
+		}
+
+		&__text {
+			font-size: 1.5vh;
+		}
+	}
+
+	.section2 {
+		&__heading {
+			font-size: 3lvh;
+		}
+
+		&__subtitle {
+			font-size: 2lvh;
+		}
+
+		&__text {
+			font-size: 1.5lvh;
+		}
+	}
+
+	.section3 {
+		&__heading {
+			font-size: 3dvh;
+		}
+	
+		&__subtitle {
+			font-size: 2dvh;
+		}
+	
+		&__text {
+			font-size: 1.5dvh;
+		}
+	}
+	.section4 {
+		&__heading {
+			font-size: 3svh;
+		}
+	
+		&__subtitle {
+			font-size: 2svh;
+		}
+	
+		&__text {
+			font-size: 1.5svh;
+		}
+	}
+}
+
+
+/*------------------------------ 500 ------------------------------*/
+
+@media (max-width: 500px) {
+	.section1 {
+		padding-top: 4vh;
+
+		&__heading {
+			font-size: 2vh;
+			margin-bottom: 3vh;
+		}
+
+		&__subtitle {
+			font-size: 1.5vh;
+			margin-bottom: 3vh;
+		}
+
+		&__text {
+			font-size: 1.2vh;
+			margin-bottom: 2.8vh;
+		}
+		&__images {
+			margin-bottom: 3vh;
+		}
+	}
+
+	.section2 {
+		padding-top: 4lvh;
+
+		&__heading {
+			font-size: 2lvh;
+			margin-bottom: 3lvh;
+		}
+
+		&__subtitle {
+			font-size: 1.5lvh;
+			margin-bottom: 3lvh;
+		}
+
+		&__text {
+			font-size: 1.2lvh;
+			margin-bottom: 2.8lvh;
+		}
+		&__images {
+			margin-bottom: 3lvh;
+		}
+	}
+
+	.section3 {
+		padding-top: 4dvh;
+
+		&__heading {
+			font-size: 2dvh;
+			margin-bottom: 3dvh;
+		}
+
+		&__subtitle {
+			font-size: 1.5dvh;
+			margin-bottom: 3dvh;
+		}
+
+		&__text {
+			font-size: 1.2dvh;
+			margin-bottom: 2.8dvh;
+		}
+		&__images {
+			margin-bottom: 3dvh;
+		}
+	}
+
+	.section4 {
+		padding-top: 4svh;
+
+		&__heading {
+			font-size: 2svh;
+			margin-bottom: 3svh;
+		}
+
+		&__subtitle {
+			font-size: 1.5svh;
+			margin-bottom: 3svh;
+		}
+
+		&__text {
+			font-size: 1.2svh;
+			margin-bottom: 2.8svh;
+		}
+		&__images {
+			margin-bottom: 3svh;
+		}
+	}
+}
